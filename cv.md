@@ -1,18 +1,18 @@
-1. Кайгородов Илья
+1. Kaiharodau Ilya
 
-2. Телефон: _+375299388089_. E-mail: _frolik.goodman@mail.ru_
+2. Phone number: _+375299388089_. E-mail: _frolik.goodman@mail.ru_
 
-3. Моя цель успешно закончить [школу RSS](https://app.rs.school/), моими сильными сторонами являются <ins> креативность, умение работать в команде, отсутствие вредных привычек, способность быстро запоминать нужную информацию </ins>. Стремлюсь постоянно узнавать что-то новое и развиваться в интересных мне сферах.
+3. My goal is to finish [RSS](https://app.rs.school/), my strengths are <ins> creativity, the ability to work in a team, the absence of bad habits, the ability to quickly memorize the necessary information </ins>. I strive to constantly learn something new and develop in areas of interest to me.
 
-4. Навыки:
-     Уверенное знание языков программмирования: 
+4. Skills:
+     Strong knowledge of programming languages: 
       * Delphi
       * C++
       * C
       * PHP
       * Swift
 
-5. Пример кода функции моего курсового проекта 
+5. Sample code of a function of my course project 
  ```c++
 void DrawXLeft(HDC hdc, int iX, int iY)
 {
@@ -48,8 +48,8 @@ void DrawXLeft(HDC hdc, int iX, int iY)
      Sleep(100);
 }            
 ```
-6. Опыт работы отсутствует.
+6. No work experience.
 
-7. Являюсь студентом 3-го курса **БГУИР, ФКСиС, специальности ПОИТ**. 
+7. I am a third year student of **BSUIR, FCSaN, speciality ITS**. 
 
-8. Уровень английского языка : **А2**
+8. English level : **А2**
