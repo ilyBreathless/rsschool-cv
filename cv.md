@@ -4,8 +4,7 @@
 
 3. My goal is to finish [RSS](https://app.rs.school/), my strengths are <ins> creativity, the ability to work in a team, the absence of bad habits, the ability to quickly memorize the necessary information </ins>. I strive to constantly learn something new and develop in areas of interest to me.
 
-4. Skills:
-     Strong knowledge of programming languages: 
+4.Strong knowledge of programming languages: 
       * Delphi
       * C++
       * C
