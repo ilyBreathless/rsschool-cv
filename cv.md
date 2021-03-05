@@ -13,7 +13,7 @@
       * Swift
 
 5. Пример кода функции моего курсового проекта 
- ```
+ ```c++
 void DrawXLeft(HDC hdc, int iX, int iY)
 {
      HPEN hPenOld;
@@ -37,7 +37,6 @@ void DrawXLeft(HDC hdc, int iX, int iY)
      if (alpha >= 255) forward = false;
      if (alpha <= 0) forward = true;
      if (forward)
-     42
      alpha += 40; else
      alpha -= 20;
      // if (alpha = 255) forward = false;
