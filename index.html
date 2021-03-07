@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+<div class="photo">
+    <img src="images/forCV.jpg" alt="Photo for CV">
+</div>
+<ol>
+    <li><p>Kaiharodau Ilya</p>
+    </li>
+    <li><p>Phone number: <em>+375299388089</em>. E-mail: <em>frolik.goodman@mail.ru</em></p>
+    </li>
+    <li><p>My goal is to finish <a href="https://app.rs.school/">RSS</a>, my strengths are <ins> creativity, the ability to work in a team, the absence of bad habits, the ability to quickly memorize the necessary information </ins>. I strive to constantly learn something new and develop in areas of interest to me.</p>
+    </li>
+    <li><p>Strong knowledge of programming languages: </p>
+        <ul>
+            <li>Delphi</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>PHP</li>
+            <li>Swift</li>
+        </ul>
+    </li>
+    <li><p>Sample code of a function of my course project </p>
+        <pre><code class="lang-c++"><span class="hljs-keyword">void</span> DrawXLeft(HDC hdc, <span class="hljs-built_in">int</span> iX, <span class="hljs-built_in">int</span> iY)
+{
+  HPEN hPenOld;
+  HPEN hLinePen;
+  HWND hWnd;
+  COLORREF qLineColor;
+  qLineColor = RGB(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+  <span class="hljs-keyword">const</span> <span class="hljs-built_in">int</span> kiPenWidth = <span class="hljs-number">10</span>;
+  hLinePen = CreatePen(PS_SOLID, kiPenWidth, qLineColor);
+  hPenOld = (HPEN)SelectObject(hdc, hLinePen);
+  <span class="hljs-comment">// Get bounds</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-built_in">int</span> kiLowX = iX * gkiSqrSz + <span class="hljs-number">2</span> * kiPenWidth;
+  <span class="hljs-keyword">const</span> <span class="hljs-built_in">int</span> kiHighX = (iX + <span class="hljs-number">1</span>) * gkiSqrSz - <span class="hljs-number">2</span> * kiPenWidth;
+  <span class="hljs-keyword">const</span> <span class="hljs-built_in">int</span> kiLowY = iY * gkiSqrSz + <span class="hljs-number">2</span> * kiPenWidth;
+  <span class="hljs-keyword">const</span> <span class="hljs-built_in">int</span> kiHighY = (iY + <span class="hljs-number">1</span>) * gkiSqrSz - <span class="hljs-number">2</span> * kiPenWidth;
+  BITMAP krestikObject;
+  GetObject(krestik, sizeof(BITMAP), &amp;krestikObject);
+  HDC memDC = CreateCompatibleDC(hdc);
+  SelectObject(memDC, krestik);
+  <span class="hljs-built_in">alpha</span> = <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">if</span> (<span class="hljs-built_in">alpha</span> &gt;= <span class="hljs-number">255</span>) forward = <span class="hljs-keyword">false</span>;
+  <span class="hljs-keyword">if</span> (<span class="hljs-built_in">alpha</span> &lt;= <span class="hljs-number">0</span>) forward = <span class="hljs-keyword">true</span>;
+  <span class="hljs-keyword">if</span> (forward)
+  <span class="hljs-built_in">alpha</span> += <span class="hljs-number">40</span>; <span class="hljs-keyword">else</span>
+  <span class="hljs-built_in">alpha</span> -= <span class="hljs-number">20</span>;
+  <span class="hljs-comment">// if (alpha = 255) forward = false;</span>
+  blf.SourceConstantAlpha = <span class="hljs-built_in">alpha</span>;
+  AlphaBlend(hdc, kiLowX - <span class="hljs-number">15</span>, kiLowY - <span class="hljs-number">15</span>, krestikObject.bmWidth,
+  krestikObject.bmHeight, memDC, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, krestikObject.bmWidth,
+  krestikObject.bmHeight, blf);
+  DeleteDC(memDC);
+  Sleep(<span class="hljs-number">100</span>);
+}
+</code></pre>
+    </li>
+    <li><p>No work experience.</p>
+    </li>
+    <li><p>I am a third year student of <strong>BSUIR, FCSaN, speciality ITS</strong>. </p>
+    </li>
+    <li><p>English level : <strong>А2</strong></p>
+    </li>
+</ol>
+</body>
+</html>
