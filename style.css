@@ -1,0 +1,31 @@
+.photo {
+    position: relative;
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden
+
+}
+.photo > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+p {
+    color: #1F2B3B;
+    font-family: "Berlin Sans FB Demi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+li {
+    color: #1F2B3B;
+    padding-left: 1px;
+    margin-left: -23px;
+}
