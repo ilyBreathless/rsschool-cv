@@ -8,17 +8,24 @@
     <title>CV</title>
 </head>
 <body>
-<div class="photo">
+<div class="content">
+  <div class="photo">
     <img src="forCV.jpg" alt="Photo for CV">
-</div>
+  </div>
 <ol>
-    <li><p>Kaiharodau Ilya</p>
-    </li>
-    <li><p>Phone number: <em>+375299388089</em>. E-mail: <em>frolik.goodman@mail.ru</em></p>
-    </li>
+    <div>
+        <header>
+            <article>
+                <h1>Kaiharodau Ilya</h1>
+                <h2>Phone number: <em>+375299388089</em>. E-mail: <em>frolik.goodman@mail.ru</em></h2>
+                <a class="github" target="_blank" href="https://github.com/ilyBreathless">My Github</a>
+            </article>
+        </header>
+    </div>
     <li><p>My goal is to finish <a href="https://app.rs.school/">RSS</a>, my strengths are <ins> creativity, the ability to work in a team, the absence of bad habits, the ability to quickly memorize the necessary information </ins>. I strive to constantly learn something new and develop in areas of interest to me.</p>
     </li>
     <li><p>Strong knowledge of programming languages: </p>
+        <main>
         <ul>
             <li>Delphi</li>
             <li>C++</li>
@@ -26,8 +33,10 @@
             <li>PHP</li>
             <li>Swift</li>
         </ul>
+        </main>
     </li>
     <li><p>Sample code of a function of my course project </p>
+        <figure class="code">
         <pre><code class="lang-c++"><span class="hljs-keyword">void</span> DrawXLeft(HDC hdc, <span class="hljs-built_in">int</span> iX, <span class="hljs-built_in">int</span> iY)
 {
   HPEN hPenOld;
@@ -62,6 +71,7 @@
   Sleep(<span class="hljs-number">100</span>);
 }
 </code></pre>
+        </figure>
     </li>
     <li><p>No work experience.</p>
     </li>
@@ -70,5 +80,11 @@
     <li><p>English level : <strong>А2</strong></p>
     </li>
 </ol>
+<div class="content-footer">
+    <footer>
+        © All Rights Reserved. 2021
+    </footer>
+</div>
+</div>
 </body>
 </html>
