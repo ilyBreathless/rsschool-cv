@@ -1,1 +1,1 @@
-https://ilyBreathless.github.io/rsschool-cv/cv
+https://ilybreathless.github.io/rsschool-cv/
